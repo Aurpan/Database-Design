@@ -44,7 +44,7 @@ CREATE TABLE "Sale"(
     "EmployeeID" INT NOT NULL,
     "CustomerID" INT NOT NULL,
     "SaleDate" DATE NOT NULL,
-    "TotalAmout" FLOAT NOT NULL
+    "TotalAmount" FLOAT NOT NULL
 );
 ALTER TABLE
     "Sale" ADD CONSTRAINT "sale_saleid_primary" PRIMARY KEY("SaleID");
